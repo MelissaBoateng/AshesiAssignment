@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Ashesi University CV</title>
+  <link rel="stylesheet" href="mystyle.css">
+  <script src="Validity.js"></script>
+</head>
+
+<body>
+
+    <h1 id="CV"></h1>
+    <form name="newForm" class="form-box" onsubmit=" return validate()" action="CV.html" method="get" >
+        
+        <div class="field-group">
+            <label >First Name</label>
+            <input type="text"  name="f_name"  placeholder="First Name">
+            <div class ="error"id="first"></div>
+        </div>
+        <div class="field-group">
+            <label>Middle Name</label>
+            <input type="text" name="M_name"  placeholder="Middle Name">
+            <div class ="error"id="Middle"></div>
+        </div>
+            <div class="field-group">
+                <label>Last</label>
+                <input type="text" name="l_name" placeholder="Last Name">
+                <div class ="error" id="last"></div>
+            </div>
+                <div class="field-group">
+                    <label>Email</label>
+                    <input type="text"  name="email"  placeholder="email@ashesi.edu.gh">
+                    <div class ="error" id="emailE" ></div>
+        </div>         
+            <div class="field-group">
+                    <label>Address</label>
+                <input type="text" name="Address" placeholder="Address"/>>
+                <div class ="error" id="AddressE" ></div>
+        </div>   
+         <div class="field-group">
+            <label >Tel.Number</label>
+         <input type="text"  name="TelNumber"  placeholder="TelNumber">
+         <div class ="error" id="TelNumberE" ></div>
+         </div>
+          
+                    <div class="radio-box">
+                        <p>Gender</p>
+                        <input type="radio" id="maleE" name="gender" value="Male">
+                        <label for="male">Male</label><br>
+                        <input type="radio" id="femaleE" name="gender" value="Female">
+                        <label for="female">Female</label><br>
+                        <div class ="error" id="genderE" ></div>
+          </div>
+                        <button id="addStudentSubmit" type="submit" value="Submit" >Submit</button>
+    </form>
+            
+<footer>
+<p>Author: Melissa Boateng<br>
+<a href="mailto:melissa.boateng@ashesi.edu.gh">melissa.boateng@ashesi.edu.gh</a></p>
+</footer>
+</body>
+</html> 
