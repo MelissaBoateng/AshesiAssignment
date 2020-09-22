@@ -1,15 +1,21 @@
 function printError(elemId, hintMsg) {
     document.getElementById(elemId).innerHTML = hintMsg;
 }
-function validate() {
+require(".mystyle.css");
+Var mCv = document.getElementById('CV');
+mCv.innerHTML = " <h1 id="CV">Ashesi University CV </h1>";
+var form = document.getElementById("newForm");
+
+function onSubmit(event) {
     // Retrieving the values of form elements 
-    var f_name = document.newForm.f_name.value;
-    var M_name = document.newForm.M_name.value;
-    var l_name = document.newForm.l_name.value;
+    var first = document.newForm.f_name.value;
+    var Middle = document.newForm.M_name.value;
+    var last = document.newForm.l_name.value;
     var email = document.newForm.email.value;
     var Address = document.newForm.Address.value;
     var TelNumber = document.newForm.TelNumber.value;
     var gender = document.newForm.gender.value;
+    var errorBox = document.getElementById('form-errors');
 
 
     }
