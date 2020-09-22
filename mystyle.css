@@ -1,4 +1,7 @@
 
+  :root {
+    --main-bg-color: rgb(119, 50, 25);
+  }
   html {
     font: 1em sans-serif;
   }
